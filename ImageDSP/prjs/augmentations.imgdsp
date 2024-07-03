@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE imgdsp>
+<imgdsp>
+    <programs>
+        <program name="HueOffset">
+            <params>
+                <param name="angle" min="0" current="0" max="360"/>
+            </params>
+        </program>
+        <program name="Aspect+Cut">
+            <params/>
+        </program>
+        <program name="Occlusions">
+            <params>
+                <param name="x center" min="0" current="0" max="800"/>
+                <param name="y center" min="0" current="0" max="800"/>
+                <param name="Width" min="0" current="0" max="300"/>
+                <param name="Height" min="0" current="0" max="300"/>
+            </params>
+        </program>
+        <program name="DCTLowpassCompression">
+            <params/>
+        </program>
+        <program name="ColorBasedkMeans">
+            <params>
+                <param name="Cluster Num (K)" min="1" current="2" max="16"/>
+            </params>
+        </program>
+    </programs>
+    <in_imgs>
+        <in_img file_name="IMG_20230620_182938.jpg"/>
+        <in_img file_name="IMG_20230620_182939.jpg"/>
+        <in_img file_name="IMG_20230620_182941.jpg"/>
+        <in_img file_name="IMG_20230620_182946.jpg"/>
+        <in_img file_name="IMG_20230620_182950.jpg"/>
+        <in_img file_name="IMG_20230620_182953.jpg"/>
+        <in_img file_name="IMG_20230620_183004.jpg"/>
+        <in_img file_name="IMG_20230620_183005.jpg"/>
+        <in_img file_name="IMG_20230620_183008.jpg"/>
+        <in_img file_name="IMG_20230620_183010.jpg"/>
+        <in_img file_name="IMG_20230620_183011.jpg"/>
+        <in_img file_name="IMG_20230620_183017.jpg"/>
+        <in_img file_name="IMG_20230620_183018.jpg"/>
+        <in_img file_name="IMG_20230620_183018_1.jpg"/>
+        <in_img file_name="IMG_20230620_183020.jpg"/>
+        <in_img file_name="IMG_20230620_183139.jpg"/>
+        <in_img file_name="IMG_20230620_183141.jpg"/>
+        <in_img file_name="IMG_20230620_183143.jpg"/>
+        <in_img file_name="IMG_20230620_183145.jpg"/>
+        <in_img file_name="IMG_20230620_183147.jpg"/>
+        <in_img file_name="IMG_20230620_183155.jpg"/>
+        <in_img file_name="IMG_20230620_183155_1.jpg"/>
+        <in_img file_name="IMG_20230620_183156.jpg"/>
+        <in_img file_name="IMG_20230620_183158.jpg"/>
+        <in_img file_name="IMG_20230620_183200.jpg"/>
+        <in_img file_name="IMG_20230620_183202.jpg"/>
+        <in_img file_name="IMG_20230620_183204.jpg"/>
+        <in_img file_name="IMG_20230620_183205.jpg"/>
+        <in_img file_name="IMG_20230620_183206.jpg"/>
+        <in_img file_name="IMG_20230620_183209.jpg"/>
+        <in_img file_name="IMG_20230620_183213.jpg"/>
+        <in_img file_name="IMG_20230620_183242.jpg"/>
+        <in_img file_name="IMG_20230620_183243.jpg"/>
+        <in_img file_name="IMG_20230620_185333.jpg"/>
+        <in_img file_name="IMG_20230620_185335.jpg"/>
+        <in_img file_name="IMG_20230620_185344.jpg"/>
+        <in_img file_name="IMG_20230620_185346.jpg"/>
+        <in_img file_name="IMG_20230620_185348.jpg"/>
+        <in_img file_name="IMG_20230620_185427.jpg"/>
+        <in_img file_name="IMG_20230620_185431.jpg"/>
+        <in_img file_name="IMG_20230620_185433.jpg"/>
+        <in_img file_name="IMG_20230620_185435.jpg"/>
+        <in_img file_name="IMG_20230620_185438.jpg"/>
+        <in_img file_name="IMG_20230620_185439.jpg"/>
+        <in_img file_name="IMG_20230620_185440.jpg"/>
+        <in_img file_name="IMG_20230620_185520.jpg"/>
+        <in_img file_name="IMG_20230620_185525.jpg"/>
+        <in_img file_name="IMG_20230620_185528.jpg"/>
+        <in_img file_name="IMG_20230620_185623.jpg"/>
+        <in_img file_name="IMG_20230620_185625.jpg"/>
+        <in_img file_name="IMG_20230620_185631.jpg"/>
+        <in_img file_name="IMG_20230620_185640.jpg"/>
+        <in_img file_name="IMG_20230620_185645.jpg"/>  
+    </in_imgs>
+    <out_imgs>
+        <out_img file_name="processed.jpg" />
+    </out_imgs>
+</imgdsp>

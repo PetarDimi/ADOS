@@ -1,0 +1,6 @@
+path: .
+train: C:\Users\dimi8\Desktop\faks\ADOS_PZ1_Labeling_and_Augmentation\datasets\train\images
+val: C:\Users\dimi8\Desktop\faks\ADOS_PZ1_Labeling_and_Augmentation\datasets\valid\images
+
+nc: 1
+names: ['dezodorans']
